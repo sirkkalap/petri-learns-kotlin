@@ -25,4 +25,18 @@ fun main() {
     if (name == "Petri") {
         println("$name Strike")
     }
+
+    x = 4
+    while (x > 3) {
+        println(x)
+        x -= 1
+    }
+
+    var z = 27
+
+    while (z == 10) {
+        // never runs
+        println(z)
+        z += 6
+    }
 }
